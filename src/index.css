@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    color:  #fbbf24;
+    font-size: 52px;
+}
+
+.glow {
+    transition: all 0.3s ease-in-out;
+}
+
+.glow:hover {
+    box-shadow: 0 0 25px #fbbf24;
+}
+
+.img_glow {
+    box-shadow: 0 0 55px #fbbf24;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 0;
+}
+
+.primary_text {
+    color:  #fbbf24;
+}
