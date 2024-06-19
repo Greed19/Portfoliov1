@@ -24,7 +24,7 @@ const Footer = () => {
     },
     {
       title:'follow me',
-      desc: [<div className="flex gap-5 text-white">{icons.map((icon) => <span key={icon.toString()}>{icon}</span>)}</div>]
+      desc: [<div className="flex gap-5 text-white">{icons.map((icon,index) => <span key={`${index}footer_icon`}>{icon}</span>)}</div>]
     },
   ]
 
@@ -32,7 +32,7 @@ const Footer = () => {
     <footer className="section sm:flex-row flex-col justify-start items-start py-20 px-20 text-white">
       {
       footerData.map((item,index) => (
-        <FooterComponents props={item} key={`${index}`}  />
+        <FooterComponents key={`footer_component${index}`}  props={item} />
       ))
       }
     </footer>

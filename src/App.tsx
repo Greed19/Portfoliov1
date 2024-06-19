@@ -14,7 +14,7 @@ function App() {
   const bgMusic = new Audio(bgMsc)
   const gotoMain = () => {
     setLoading(false)
-    // bgMusic.loop = true;
+    bgMusic.loop = true;
     bgMusic.play()
   }
   return (
