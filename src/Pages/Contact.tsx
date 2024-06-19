@@ -2,7 +2,6 @@
 const Contact = () => {
 
   const onSubmit = (e:any) => {
-    // const {value,name} = e.target;
     e.preventDefault()
   }
 

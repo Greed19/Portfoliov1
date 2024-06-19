@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react"
+import { useState } from "react"
 import About from "./Pages/About"
 import Contact from "./Pages/Contact"
 import Footer from "./Pages/Footer"
